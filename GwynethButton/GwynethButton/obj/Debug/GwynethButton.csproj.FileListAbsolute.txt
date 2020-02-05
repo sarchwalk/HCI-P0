@@ -28,3 +28,17 @@ C:\Users\erikafung\Documents\GitHub\HCI-P0\GwynethButton\GwynethButton\obj\Debug
 C:\Users\erikafung\Documents\GitHub\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.csproj.CoreCompileInputs.cache
 C:\Users\erikafung\Documents\GitHub\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.exe
 C:\Users\erikafung\Documents\GitHub\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.pdb
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\bin\Debug\GwynethButton.exe.config
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\bin\Debug\GwynethButton.exe
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\bin\Debug\GwynethButton.pdb
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\MainWindow.g.cs
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\App.g.cs
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton_MarkupCompile.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton_MarkupCompile.lref
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\MainWindow.baml
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.g.resources
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.Properties.Resources.resources
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.csproj.GenerateResource.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.exe
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.pdb

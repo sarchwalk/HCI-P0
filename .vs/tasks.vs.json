@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "task-gwynethHead",
+      "appliesTo": "GwynethButton/GwynethButton/gwynethHead.png",
+      "type": "launch"
+    },
+    {
+      "taskName": "task-Assets",
+      "appliesTo": "Assets/",
+      "type": "launch"
+    }
+  ]
+}
