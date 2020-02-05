@@ -84,5 +84,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
+        <Image x:Name="GwynethHead" Source = "GwynethHead.png" Margin="358.548,174.817,355.645,137.28"></Image>
+        <Image x:Name="GwynethFace" Source = "happyClosedEyesExpression.png" Margin="382.548,205.217,377.645,165.68"></Image>
     </Grid>
 </Window>
