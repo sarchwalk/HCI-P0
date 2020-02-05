@@ -29,7 +29,7 @@ namespace GwynethButton
             this.KeyUp += MainWindow_KeyUp;
             wheelspinAnimation = (Storyboard)Resources["wheelspin"];
 
-            image.KeyUp += (s, e) =>
+            Wheel.MouseLeftButtonUp += (s, e) =>
             { wheelspinAnimation.Begin();
 };
             
