@@ -1,0 +1,15 @@
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.csprojAssemblyReference.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\MainWindow.g.cs
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\App.g.cs
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth_MarkupCompile.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth_MarkupCompile.lref
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\bin\Debug\WheelOfGwyneth.exe.config
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\bin\Debug\WheelOfGwyneth.exe
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\bin\Debug\WheelOfGwyneth.pdb
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\MainWindow.baml
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.g.resources
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.Properties.Resources.resources
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.csproj.GenerateResource.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.csproj.CoreCompileInputs.cache
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.exe
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\WheelOfGwyneth\WheelOfGwyneth\obj\Debug\WheelOfGwyneth.pdb
