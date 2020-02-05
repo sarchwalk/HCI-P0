@@ -1,4 +1,4 @@
-﻿<Window x:Class="GwynethButton.MainWindow"
+﻿<Window x:Name="window" x:Class="GwynethButton.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -69,12 +69,75 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="120"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="steam">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="Wheel">
+                <EasingDoubleKeyFrame KeyTime="0" Value="120"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="120"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="120"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="188.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="494.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="603.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-30.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-28.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-19.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="vagina">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="435.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="vagina">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.6"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-118.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-393.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-505.6"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="9.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="12.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-3.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-168"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-512"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="59.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="168"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="380.8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-14.4"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
     <Window.Triggers>
-        
+
+
+
     </Window.Triggers>
-    <Grid>
-        <Image x:Name="Wheel" Margin="269.262,93.443,269.262,71.957" Source="wheel.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+    <Grid x:Name="grid" RenderTransformOrigin="0.5,0.5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="33*"/>
+        </Grid.RowDefinitions>
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Image x:Name="Wheel" Margin="269.262,93.443,269.262,71.957" Source="wheel.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -84,7 +147,55 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="GwynethHead" Source = "GwynethHead.png" Margin="358.548,174.817,355.645,137.28"></Image>
-        <Image x:Name="GwynethFace" Source = "happyClosedEyesExpression.png" Margin="382.548,205.217,377.645,165.68"></Image>
+        <Image x:Name="vagina" Source ="vagina.png" RenderTransformOrigin="0.5,0.5" Margin="-4.8,-437.2,4.8,239.2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="cloud" Margin="-379.2,169.92,843.8,77.697" Source="cloud.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="cloud_Copy" Margin="-243.2,33.937,807,52.291" Source="cloud.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="cloud_Copy1" Margin="835.2,19.709,-207.4,77.697" Source="cloud.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.Row="1">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:Name="cloud_Copy2" Margin="835.2,33.937,-234.6,52.291" Source="cloud.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>

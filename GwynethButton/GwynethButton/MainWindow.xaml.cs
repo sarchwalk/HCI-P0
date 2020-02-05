@@ -23,15 +23,21 @@ namespace GwynethButton
     public partial class MainWindow : Window
     {
         Storyboard wheelspinAnimation;
+        Storyboard steamAnimation;
         public MainWindow()
         {
             InitializeComponent();
             this.KeyUp += MainWindow_KeyUp;
             wheelspinAnimation = (Storyboard)Resources["wheelspin"];
+            steamAnimation = (Storyboard)Resources["steam"];
 
             Wheel.MouseLeftButtonUp += (s, e) =>
             { wheelspinAnimation.Begin();
 };
+             wheelspinAnimation.Completed += (s, e) =>
+            {
+               steamAnimation.Begin();
+            };
             
         }
           private void MainWindow_KeyUp(object sender, KeyEventArgs e)
