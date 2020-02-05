@@ -63,16 +63,28 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Storyboard x:Key="wheelspin">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="120"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource wheelspin}"/>
+        </EventTrigger>
+    </Window.Triggers>
     <Grid>
-        <Button x:Name="Wheel" Content="" HorizontalAlignment="Left" Height="181.803" Margin="97.311,112.227,0,0" VerticalAlignment="Top" Width="284.534" Style="{DynamicResource ButtonStyle1}">
-            <Button.Foreground>
-                <ImageBrush ImageSource="wheel.png"/>
-            </Button.Foreground>
-            <Button.Background>
-                <ImageBrush ImageSource="wheel.png"/>
-            </Button.Background>
-        </Button>
-
+        <Image x:Name="image" Margin="269.262,93.443,269.262,71.957" Source="wheel.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
     </Grid>
 </Window>
