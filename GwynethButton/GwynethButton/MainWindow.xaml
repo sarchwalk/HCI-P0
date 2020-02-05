@@ -65,7 +65,10 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <Button x:Name="Wheel" Content="" HorizontalAlignment="Left" Height="167.049" Margin="343.213,112.227,0,0" VerticalAlignment="Top" Width="135.763" Style="{DynamicResource ButtonStyle1}">
+        <Button x:Name="Wheel" Content="" HorizontalAlignment="Left" Height="181.803" Margin="97.311,112.227,0,0" VerticalAlignment="Top" Width="284.534" Style="{DynamicResource ButtonStyle1}">
+            <Button.Foreground>
+                <ImageBrush ImageSource="wheel.png"/>
+            </Button.Foreground>
             <Button.Background>
                 <ImageBrush ImageSource="wheel.png"/>
             </Button.Background>
