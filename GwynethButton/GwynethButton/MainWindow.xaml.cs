@@ -25,7 +25,7 @@ namespace GwynethButton
         Storyboard wheelspinAnimation;
         Storyboard beeStingAnimation;
 
-        public MainWindow()
+        public MainWindow() 
         {
             Random r = new Random();
             
@@ -39,7 +39,6 @@ namespace GwynethButton
             Wheel.MouseLeftButtonUp += (s, e) =>
             {
                 wheelspinAnimation.Begin();
-
             };
 
             /* wheelspinAnimation.Completed += (s, e) =>

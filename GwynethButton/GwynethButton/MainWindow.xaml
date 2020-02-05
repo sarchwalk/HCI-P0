@@ -66,21 +66,46 @@
         <Storyboard x:Key="wheelspin">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="Wheel">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="429.994"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="720.167"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="GwynethHead">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="429.994"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="720.167"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="GwynethFace">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="359.51"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="429.994"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="720.167"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GwynethHead">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-8.532"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-0.092"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GwynethHead">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-3.976"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.017"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="GwynethFace">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-10.139"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-0.103"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="GwynethFace">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-3.7"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="0.027"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="BeeSting">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="Wheel">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-69.213"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="GwynethHead">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
@@ -387,7 +412,7 @@
             <RowDefinition Height="247*"/>
             <RowDefinition Height="174*"/>
         </Grid.RowDefinitions>
-        <Image x:Name="Wheel" Margin="269.262,93.443,269.262,71.957" Source="wheel.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+        <Image x:Name="Wheel" Margin="269.262,93.443,269.262,71.957" Source="Assets//wheel.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -397,7 +422,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="GwynethHead" Source = "bin//Assets//gwynethHead.png" Margin="358.548,174.817,355.645,137.28" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Visibility="Visible">
+        <Image x:Name="GwynethHead" Source = "Assets//gwynethHead.png" Margin="358.548,174.817,355.645,137.28" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Visibility="Visible">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -407,7 +432,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="GwynethFace" Source="bin//Assets//happyClosedEyesExpression.png" Margin="382.548,205.217,377.645,165.68" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+        <Image x:Name="GwynethFace" Source="Assets//happyClosedEyesExpression.png" Margin="382.548,205.217,377.645,165.68" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -417,7 +442,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="BeeReaction" Source="bin//Assets//beeStingExpression.png" Margin="1004.607,93.443,-333.955,21.837" RenderTransformOrigin="0.5,0.5" d:IsHidden="True">
+        <Image x:Name="BeeReaction" Source="Assets//beeStingExpression.png" Margin="1004.607,93.443,-333.955,21.837" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -427,7 +452,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" d:IsHidden="True">
+        <Image x:Name="Bee" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -437,7 +462,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee2" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" d:IsHidden="True">
+        <Image x:Name="Bee2" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -447,7 +472,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee3" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1" d:IsHidden="True">
+        <Image x:Name="Bee3" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -457,7 +482,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee_Copy" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464" d:IsHidden="True">
+        <Image x:Name="Bee_Copy" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -467,7 +492,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee2_Copy" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1" d:IsHidden="True">
+        <Image x:Name="Bee2_Copy" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -477,7 +502,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee3_Copy" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1" d:IsHidden="True">
+        <Image x:Name="Bee3_Copy" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -487,7 +512,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee_Copy1" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464" d:IsHidden="True">
+        <Image x:Name="Bee_Copy1" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -497,7 +522,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee2_Copy1" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1" d:IsHidden="True">
+        <Image x:Name="Bee2_Copy1" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -507,7 +532,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee3_Copy1" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1" d:IsHidden="True">
+        <Image x:Name="Bee3_Copy1" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="0,128.7,739.2,0" Grid.Row="1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -517,7 +542,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee_Copy2" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464" d:IsHidden="True">
+        <Image x:Name="Bee_Copy2" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="-89.664,-10.526,826.516,224.464">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform ScaleX="-1"/>
@@ -527,7 +552,7 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="Bee2_Copy2" Source="bin//Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1" d:IsHidden="True">
+        <Image x:Name="Bee2_Copy2" Source="Assets//bee.png" RenderTransformOrigin="0.5,0.5" Margin="859.2,19.2,-120,190.1">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

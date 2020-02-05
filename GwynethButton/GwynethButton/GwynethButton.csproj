@@ -86,6 +86,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="desktop.ini" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -95,11 +96,23 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="wheel.png" />
+    <Resource Include="arm.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bee.png" />
+    <Resource Include="beeStingExpression.png" />
+    <Resource Include="blushing.png" />
+    <Resource Include="goop.png" />
+    <Resource Include="gwynethHead.png" />
+    <Resource Include="happyClosedEyesExpression.png" />
+    <Resource Include="shockedExpression.png" />
+    <Resource Include="spinningWheel.png" />
+    <Resource Include="tick.png" />
+    <Resource Include="unhappyExpression.png" />
+    <Resource Include="wheel.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
