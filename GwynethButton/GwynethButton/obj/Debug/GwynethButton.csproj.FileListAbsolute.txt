@@ -42,3 +42,4 @@ C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\Gwyne
 C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.csproj.CoreCompileInputs.cache
 C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.exe
 C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.pdb
+C:\Users\Sarah\Documents\Education\Year 4\CPSC 581\P0\HCI-P0\GwynethButton\GwynethButton\obj\Debug\GwynethButton.csprojAssemblyReference.cache
