@@ -24,43 +24,43 @@ namespace GwynethButton
     {
         Storyboard wheelspinAnimation;
         Storyboard steamAnimation;
+        Storyboard beeAnimation;
         Storyboard armAnimation;
         public MainWindow()
         {
             InitializeComponent();
             Random r = new Random();
+            int state = 0;
 
             this.KeyUp += MainWindow_KeyUp;
-            wheelspinAnimation = (Storyboard)Resources["wheelspin"];
+            wheelspinAnimation = (Storyboard)Resources["wheelspin"];;
             steamAnimation = (Storyboard)Resources["steam"];
             armAnimation = (Storyboard)Resources["arm"];
+            beeAnimation = (Storyboard)Resources["beeFacial"];
 
             Wheel.MouseLeftButtonUp += (s, e) =>
             {
-                int rInt = r.Next(1, 3);
-                 switch (rInt)
-                 {
-                     case 1:
-                         armAnimation.Begin();
-                         break;
-                     case 2:
-                        wheelspinAnimation.Begin();
-                        wheelspinAnimation.Begin();
-                        steamAnimation.Begin();
-                         break;
-                     case 3:
-                        
-                         break;
-                 }
+                wheelspinAnimation.Begin();
+                state = r.Next(1, 4);
             };
 
-            //{ wheelspinAnimation.Begin();
-            //};
-             //wheelspinAnimation.Completed += (s, e) =>
-            //{
-               //steamAnimation.Begin();
-            //};
-            
+            wheelspinAnimation.Completed += (s, e) =>
+            {
+                switch (state)
+                {
+                    case 1:
+                        armAnimation.Begin();
+                        break;
+                    case 2:
+                        steamAnimation.Begin();
+                        break;
+                    case 3:
+                        beeAnimation.Begin();
+                        break;
+                    default:
+                        break;
+                }
+            };
         }
           private void MainWindow_KeyUp(object sender, KeyEventArgs e)
         {
