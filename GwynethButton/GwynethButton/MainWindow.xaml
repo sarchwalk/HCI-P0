@@ -605,9 +605,6 @@
 
 
 
-        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
-            <BeginStoryboard Storyboard="{StaticResource beeFacial}"/>
-        </EventTrigger>
 
 
 
@@ -821,6 +818,5 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="title" Source="title.png" Margin="-154.062,37.411,304.062,27.411"/>
     </Grid>
 </Window>
