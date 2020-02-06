@@ -24,20 +24,42 @@ namespace GwynethButton
     {
         Storyboard wheelspinAnimation;
         Storyboard steamAnimation;
+        Storyboard armAnimation;
         public MainWindow()
         {
             InitializeComponent();
+            Random r = new Random();
+
             this.KeyUp += MainWindow_KeyUp;
             wheelspinAnimation = (Storyboard)Resources["wheelspin"];
             steamAnimation = (Storyboard)Resources["steam"];
+            armAnimation = (Storyboard)Resources["arm"];
 
             Wheel.MouseLeftButtonUp += (s, e) =>
-            { wheelspinAnimation.Begin();
-};
-             wheelspinAnimation.Completed += (s, e) =>
             {
-               steamAnimation.Begin();
+                int rInt = r.Next(1, 3);
+                 switch (rInt)
+                 {
+                     case 1:
+                         armAnimation.Begin();
+                         break;
+                     case 2:
+                        wheelspinAnimation.Begin();
+                        wheelspinAnimation.Begin();
+                        steamAnimation.Begin();
+                         break;
+                     case 3:
+                        
+                         break;
+                 }
             };
+
+            //{ wheelspinAnimation.Begin();
+            //};
+             //wheelspinAnimation.Completed += (s, e) =>
+            //{
+               //steamAnimation.Begin();
+            //};
             
         }
           private void MainWindow_KeyUp(object sender, KeyEventArgs e)

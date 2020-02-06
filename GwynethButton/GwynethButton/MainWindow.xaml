@@ -74,52 +74,122 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="120"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="120"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="120"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="120"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="120"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="188.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="494.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="603.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="603.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="32"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-30.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-28.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-19.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-19.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="41.6"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="vagina">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="435.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="436.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="14.4"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="vagina">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="1.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy2">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-118.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-393.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-505.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-505.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-17.6"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy2">
                 <EasingDoubleKeyFrame KeyTime="0:0:1" Value="9.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="12.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-3.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1.6"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy1">
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-168"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-512"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-512"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-19.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy1">
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-4.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="59.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="59.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="52.8"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="cloud_Copy">
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="168"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="380.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="380.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="-60.8"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="cloud_Copy">
                 <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-3.2"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-14.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-14.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="arm">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="Wheel">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="360"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="360"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="385"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="25"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="4.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="4.8"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="1.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="1.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1.2"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
     </Window.Resources>
     <Window.Triggers>
+
+
+
+        
 
 
 
@@ -147,7 +217,19 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="vagina" Source ="vagina.png" RenderTransformOrigin="0.5,0.5" Margin="-4.8,-437.2,4.8,239.2">
+        <Image x:Name="image" Margin="404.2,93.443,312,0" Source="arm.png" Stretch="Fill" Opacity="0" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="352.533,177.945,358.267,143.867" Source="gwynethHead.png" Stretch="Fill" Grid.RowSpan="2"/>
+        <Image Margin="387.2,81.6,389.4,112.611" Source="tick.png" Stretch="Fill"/>
+        <Image x:Name="vagina" Source ="vagina.png" RenderTransformOrigin="0.5,0.5" Margin="-3.6,-434.8,3.6,236.8">
             <Image.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>

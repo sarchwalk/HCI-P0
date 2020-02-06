@@ -103,5 +103,14 @@
   <ItemGroup>
     <Resource Include="cloud.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="gwynethHead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tick.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="arm.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
