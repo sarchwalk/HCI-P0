@@ -23,49 +23,46 @@ namespace GwynethButton
     public partial class MainWindow : Window
     {
         Storyboard wheelspinAnimation;
-        Storyboard beeStingAnimation;
-
-        public MainWindow() 
+        Storyboard steamAnimation;
+        Storyboard beeAnimation;
+        Storyboard armAnimation;
+        public MainWindow()
         {
-            Random r = new Random();
-            
-
             InitializeComponent();
-            this.KeyUp += MainWindow_KeyUp;
+            Random r = new Random();
+            int state = 0;
 
-            wheelspinAnimation = (Storyboard)Resources["wheelspin"];
-            beeStingAnimation = (Storyboard)Resources["BeeSting"];
+            this.KeyUp += MainWindow_KeyUp;
+            wheelspinAnimation = (Storyboard)Resources["wheelspin"];;
+            steamAnimation = (Storyboard)Resources["steam"];
+            armAnimation = (Storyboard)Resources["arm"];
+            beeAnimation = (Storyboard)Resources["beeFacial"];
 
             Wheel.MouseLeftButtonUp += (s, e) =>
             {
                 wheelspinAnimation.Begin();
+                state = r.Next(1, 3);
             };
-
-            /* wheelspinAnimation.Completed += (s, e) =>
-             {
-                 int rInt = r.Next(1, 3);
-                 switch (rInt)
-                 {
-                     case 1:
-                         beeStingAnimation.Begin();
-                         break;
-                     case 2:
-                         wheelspinAnimation.Begin();
-                         break;
-                     case 3:
-
-                         break;
-                 }
-             };
-             */
 
             wheelspinAnimation.Completed += (s, e) =>
             {
-                beeStingAnimation.Begin();
+                switch (state)
+                {
+                    case 1:
+                        armAnimation.Begin();
+                        break;
+                    case 2:
+                        steamAnimation.Begin();
+                        break;
+                    case 3:
+                        beeAnimation.Begin();
+                        break;
+                    default:
+                        break;
+                }
             };
-            
         }
-        private void MainWindow_KeyUp(object sender, KeyEventArgs e)
+          private void MainWindow_KeyUp(object sender, KeyEventArgs e)
         {
             if(e.Key == Key.Escape)
             {

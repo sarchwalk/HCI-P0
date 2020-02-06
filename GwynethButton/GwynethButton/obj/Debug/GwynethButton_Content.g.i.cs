@@ -8,16 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/bee.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/beestingexpression.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/blushing.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/goop.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/gwynethhead.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/happyclosedeyesexpression.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/shockedexpression.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/spinningwheel.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/tick.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/unhappyexpression.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/wheel.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("title.png")]
 
 
