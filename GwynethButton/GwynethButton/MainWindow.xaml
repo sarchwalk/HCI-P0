@@ -182,13 +182,15 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="vagina">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.6" Value="{x:Static Visibility.Hidden}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:1.7" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:3.9" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:10.8" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:11.8" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:11.9" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="vagina">
-                <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="1"/>
@@ -198,68 +200,90 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="1.929"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="1.929"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="1.022"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0.888"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="gwynethHead">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="2.043"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="2.043"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0.976"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0.925"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="gwynethHead">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-3"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="-3"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="2.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="-2.266"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="gwynethHead">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="18"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="18"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="-10.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="happyClosedEyes">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="1.929"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="1.929"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="1.022"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0.888"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="happyClosedEyes">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="2.043"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="2.043"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0.976"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0.925"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="happyClosedEyes">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-2.288"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="-2.288"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="2.817"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="-2.352"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="happyClosedEyes">
                 <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="17.513"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="17.513"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="-10.389"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.7" Value="0.036"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="blush">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Hidden}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:5.8" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:10.8" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:11.1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:12" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="blush">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.98275862068965514"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:10.8" Value="1"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.1" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="vagina">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-20.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:11.9" Value="-559.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="vagina">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-93.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:11.8" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:11.9" Value="-264"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="blush">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:12" Value="-727.2"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="blush">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:11.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:12" Value="-40.8"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="arm">
@@ -464,82 +488,111 @@
             </DoubleAnimationUsingKeyFrames>
 
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee8">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="251.46046511627907"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="348.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="955.2"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="926.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="1312"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee8">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="6.9209302325581392"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.3" Value="9.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-161.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-161.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-174.4"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-5.04406779661017"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-9.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="-766.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.2" Value="-737.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:8.3" Value="-1192"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-1.68135593220339"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-3.2"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.7" Value="-57.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.2" Value="-54.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:8.3" Value="-182.4"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee5">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-15.095652173913042"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-22.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="-782.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="-766.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7" Value="-1158.4"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee5">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-10.782608695652174"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-16"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="-62.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="-62.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7" Value="-91.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee7">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-734.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.8" Value="-689.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-1251.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee7">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-257.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.8" Value="-238.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-368"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee6">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="902.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="880.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.1" Value="1267.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee6">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6" Value="-84"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="-69.6"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.1" Value="-268.8"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="820.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.1" Value="804"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="1027.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="62.4"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.1" Value="52.8"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-252"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Storyboard.TargetName="bee4">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:4.7" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:5.1" Value="-27.734"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="bee1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="-58.5445"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-117.089"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="-623.48852459016393"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.3" Value="-717.6"/>
@@ -547,6 +600,8 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:8.8" Value="-1148.2"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="bee1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.1" Value="3.659"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="7.318"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:6.3" Value="237.71803278688526"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:7.3" Value="273.6"/>
@@ -680,7 +735,16 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="blush" Source="blushing.png" Margin="338.533,204.933,339.934,135.601" Grid.RowSpan="2" Visibility="Hidden"/>
+        <Image x:Name="blush" Source="blushing.png" Margin="335.534,199.8,342.933,140.734" Visibility="Hidden" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
         <Image x:Name="cloud" Margin="-379.2,169.92,843.8,77.697" Source="cloud.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2">
             <Image.RenderTransform>
                 <TransformGroup>

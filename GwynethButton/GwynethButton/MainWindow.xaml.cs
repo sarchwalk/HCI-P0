@@ -41,7 +41,7 @@ namespace GwynethButton
             Wheel.MouseLeftButtonUp += (s, e) =>
             {
                 wheelspinAnimation.Begin();
-                state = r.Next(1, 3);
+                state = r.Next(1, 4);
             };
 
             wheelspinAnimation.Completed += (s, e) =>
