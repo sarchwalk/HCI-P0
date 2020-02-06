@@ -877,6 +877,6 @@
                 </TransformGroup>
             </Image.RenderTransform>
         </Image>
-        <Image x:Name="title" Source="title.png" Margin="-154.062,37.411,304.062,27.411"/>
+        <Image x:Name="title" Source="title.png" Margin="-134.862,59,370.2,27.411"/>
     </Grid>
 </Window>
